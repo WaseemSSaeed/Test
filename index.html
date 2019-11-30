@@ -1,4 +1,20 @@
-<h1>Hello World</h1>
-<?php
-echo "hello";
-?>
+<link rel="stylesheet" href="./style/style.css">
+<html style="background-color: rgba(3, 85, 85, 0.5);">
+    <header id="left" style="margin: -8px">
+        <div class="mainLeftDiv">
+            <p class="mainHeadline">Global Open Materials Analysis Project</p>
+            <button class="mainBtn" id="about">Know More</button>
+        </div>
+        <div class="mainRightDiv" id="right">
+            
+        </div>
+    </header>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $("#right").load("right.html");
+    $("#about").click(function(){
+        $("#right").load("About.html");
+    });
+</script>
