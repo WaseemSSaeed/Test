@@ -6,7 +6,7 @@ html {
     width: 45%;
     float: left;
     background-color: aqua;
-    background: linear-gradient(rgba(0, 255, 255, 0.521), rgba(0, 255, 255, 0.664),aqua), url(../img/architecture-beams-black-and-white-53176.jpg);
+    background: linear-gradient(rgba(0, 255, 255, 0.521), rgba(0, 255, 255, 0.664),aqua), url(./architecture-beams-black-and-white-53176.jpg);
     background-size: cover;
     background-blend-mode: color;
     transition: 1s;
@@ -34,7 +34,7 @@ html {
 .mainRightDiv{
     height: 103%;
     width: 55%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(../img/building-close-up-construction-2760243.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(./building-close-up-construction-2760243.jpg);
     background-size: cover;
     background-blend-mode: hue;
     float: right;
