@@ -1,5 +1,14 @@
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style.css">
 <html style="background-color: rgba(3, 85, 85, 0.5);">
+    <div class="navBar">
+        <button class="navBarBtn">Arwards</button>
+        <button class="navBarBtn">Get Support</button>
+        <button class="navBarBtn">Resources</button>
+        <button class="navBarBtn">Students</button>
+        <button class="navBarBtn">Universities</button>
+        <button class="navBarBtn">Contribute</button>
+        <input id="titler" class="navBarCaption" value="We are looking for your contributions">
+    </div>
     <header id="left" style="margin: -8px">
         <div class="mainLeftDiv">
             <p class="mainHeadline">Global Open Materials Analysis Project</p>
@@ -15,6 +24,7 @@
 <script>
     $("#right").load("right.html");
     $("#about").click(function(){
-        $("#right").load("About.html");
+        $("#right").load("about.htm");
+        document.getElementById("titler").value = "Project Team";
     });
 </script>
