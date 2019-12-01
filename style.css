@@ -132,7 +132,7 @@ html {
 
 .teamPhoto{
     border-radius: 50%;
-    width: 150px;
+    height: 150px;
 }
 .teamTitle{
     -webkit-text-fill-color: white;
