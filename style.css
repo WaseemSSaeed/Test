@@ -34,7 +34,7 @@ html {
 .mainRightDiv{
     height: 103%;
     width: 55%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(photo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(https://github.com/waseemssaeed/Test/blob/master/photo.jpg);
     background-size: cover;
     background-blend-mode: hue;
     float: right;
