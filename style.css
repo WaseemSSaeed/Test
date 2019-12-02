@@ -34,7 +34,7 @@ html {
 .mainRightDiv{
     height: 103%;
     width: 55%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(./building-close-up-construction-2760243.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), rgba(0, 0, 0)), url(./‫‫building-close-up-construction-2760243-lower.jpg);
     background-size: cover;
     background-blend-mode: hue;
     float: right;
@@ -132,7 +132,7 @@ html {
 
 .teamPhoto{
     border-radius: 50%;
-    height: 150px;
+    width: 150px;
 }
 .teamTitle{
     -webkit-text-fill-color: white;
@@ -142,17 +142,16 @@ html {
     margin: 0px;
 }
 
-.navBar{
+.xnavBar{
     position: fixed;
     margin: 0px;
-    margin-left: -8px;
     padding-left: 5px;
     top: 0px;
     width: 100%;
     height: 35px;
     background-color: rgba(153, 205, 50, 0.548);
 }
-.navBarBtn{
+.xnavBarBtn{
     margin: none;
     outline: none;
     border: none;
@@ -165,30 +164,32 @@ html {
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
-    margin-left: -3.2px;
+    margin-left: -3px;
     border-bottom-width: 2px;
     border-bottom-color: tomato;
     border-bottom-style: solid;
 }
-.navBarBtn:hover{
+.xnavBarBtn:hover{
     background-color: yellowgreen;
     border-bottom-width: 3px;
     border-bottom-color: teal;
     border-bottom-style: solid;
 }
 .navBarCaption{
-    text-align: center;
+    pointer-events: none;
+    margin-top: 0px;
+    top: 0px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-text-fill-color: white;
-    width: 55.4%;
+    text-align: center;
+    width: fit-content;
     cursor: crosshair;
     margin: none;
     outline: none;
     border: none;
     background-color: rgba(0, 128, 128, 0.8);
     height: 100%;
-    padding-left: 5px;
     padding-right: 5px;
     float: right;
 }
