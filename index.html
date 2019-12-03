@@ -65,7 +65,7 @@
     <header id="top">
         <div class="mainLeftDiv">
             <p class="mainHeadline">Austenite - Open Materials Analysis Project</p>
-            <button class="mainBtn" id="btnTeam2">Know More</button>
+            <a href="oops"><button class="mainBtn" id="btnTeam2">Know More</button></a>
         </div>
         <div class="mainRightDiv" id="right">
             
@@ -133,6 +133,10 @@
                 $("#right").load("right.html");
                 document.getElementById("titler").innerHTML = "We are looking for your ideas !";
             });
+            $("#back2").click(function(){
+                $("#right").load("right.html");
+                document.getElementById("titler").innerHTML = "We are looking for your ideas !";
+            });
             $("#btnTeam").click(function(){
                 document.getElementById("titler").innerHTML = "Project Team";
             });
@@ -141,10 +145,12 @@
     
     <div id="oops" style="height: 100vh;">
         <center>
-            <i class="fa fa-heart" style="margin-top: 10vh; font-size: 60px; -webkit-text-fill-color: teal;"></i>
+            <i class="fa fa-heart" style="margin-top: 20vh; font-size: 60px; -webkit-text-fill-color: teal;"></i>
             <h1 style="-webkit-text-fill-color: teal;">Thank you for being interested :) !</h1>
             <h2 style="-webkit-text-fill-color: tomato;">We are working on this topic, waiting for<br>the invitations to be completed !</h2>
             <h2 style="-webkit-text-fill-color: white; padding: 10px ; background-color: teal; width: fit-content">It's a pleasure to hear from you in our E-Mail inbox here: ----@---.-- :)</h2>
+            <br>
+            <a href="#top"><button class="mainBtn" id="back2"> < Back</button></a>
         </center>
     </div>
 </html>
